@@ -1,29 +1,52 @@
+/***************************************HEADERS COMPONENTS********************************************************/
+
 .headers{
     background: #41295a;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
 
-.homepage{
+ #btn{
+    background-color: #41295a;  border: none;
+    color: white;   padding: 15px 32px;
+    text-align: center;  text-decoration: none;
+    display: inline-block;  font-size: 16px;
+    float: left;
+
+ }
+btn:hover {
+    background-color: white; /* Green */
+    color:black;
+ }
+
+ /************************************HOMEPAGE COMPONENT ****************************************/
+
+ .homepage{
     background: #7F7FD5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color:white;
+    height: 757px;
 }
-
-.homepage-img{ width:500px; margin:10px }
-
-.homepage-anchor{ font-family: verdana; font-size: 20px; }
 
 .homepage-banner{
-    background-color:black;
-    border-radius:15px;
+    background-color:black; border-radius:15px;
     margin-left:15%; margin-right:15%;
     padding:20px; padding-top:2px;
-    width:70%;
-    text-align:center
+    width:70%; text-align:center
+    
 }
 
+.homepage-img{ width:500px; margin:10px ;height: 500px;border-radius:250px;}
+.homepage-img-section{ margin-left: 37%; margin-right:31% }
+.homepage-anchor{ font-family: verdana; font-size: 20px; }
+.homepage-icon-g{font-size: 30px; }
 .homepage-icon{ font-size:30px; padding-left:80px; }
-
 .social-link{ color: white; text-decoration: none; }
+
+/******************************************PROJECT COMPONENT *****************************/
+Card{
+    margin:5px;
+}
+/* /****************************************Contact Component *********************************** */
+.contact-icon{ font-size:70px; padding-left:80px; }

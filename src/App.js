@@ -10,15 +10,12 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="app" >
-                <div style={{ height: '300px' }}>
                     <Layout fixedHeader>
                         <HeaderPage />
-                        <Content className="homepage">
-                            <div />
-                            <MainPage />
+                        <Content >
+                              <MainPage />
                         </Content>
                     </Layout>
-                </div>
             </div>
         );
     }

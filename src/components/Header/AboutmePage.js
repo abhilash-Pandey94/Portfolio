@@ -4,7 +4,9 @@ class AboutMePage extends React.Component{
     render(){
         return(
             <div>
-                <h1>AboutMePage</h1>
+                <div class="container-fluid">
+                    <h1>Hello,About</h1>
+            </div>
            </div>
         );
     }

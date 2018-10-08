@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Portfolio from './App';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
@@ -10,4 +11,3 @@ ReactDOM.render(
         <Portfolio />
     </BrowserRouter>    
         , document.getElementById('root'));
-
